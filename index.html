@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#090611">
+<meta name="description" content="Free Robux Lovers — community giveaway information and Roblox scam-safety tips.">
+<title>Free Robux Lovers</title>
+<style>
+:root{color-scheme:dark;--bg:#090611;--panel:#151020;--purple:#9b5cff;--pink:#e35bff;--muted:#b9adc9;--line:#30223f}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% 0%,#291344 0,transparent 45%),var(--bg);color:#fff;font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}
+header{max-width:1100px;margin:auto;padding:24px;display:flex;justify-content:space-between;align-items:center;gap:16px}
+.logo{font-weight:900;letter-spacing:.3px}.logo span{color:var(--pink)}nav a{color:var(--muted);text-decoration:none;margin-left:18px}
+main{max-width:1000px;margin:auto;padding:34px 24px 80px}.hero{text-align:center;padding:50px 0 42px}.eyebrow{color:#d7aaff;text-transform:uppercase;letter-spacing:2px;font-size:.8rem;font-weight:800}
+h1{font-size:clamp(2.5rem,7vw,5rem);line-height:1.03;margin:14px 0;background:linear-gradient(90deg,#fff,#d9a8ff,#f5a6ff);-webkit-background-clip:text;color:transparent}
+.lead{color:var(--muted);max-width:650px;margin:18px auto}.prize{max-width:650px;margin:32px auto 0;padding:28px;border:1px solid #7040a4;border-radius:24px;background:linear-gradient(135deg,#211332,#120d1c);box-shadow:0 18px 60px #0008}
+.prize small{color:#d6b6ff;font-weight:800;letter-spacing:1.5px}.amount{font-size:clamp(3rem,10vw,5.5rem);font-weight:950;line-height:1.15;margin:8px 0;color:#fff}.amount span{color:#d88bff}
+.note{color:var(--muted);font-size:.92rem}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:28px}.card{background:#130e1d;border:1px solid var(--line);border-radius:18px;padding:24px}.card h2{margin:0 0 10px;font-size:1.25rem}.card p,.card li{color:var(--muted)}
+label{display:block;font-weight:700;margin:16px 0 7px}input{width:100%;padding:14px 15px;border:1px solid #59406e;border-radius:12px;background:#0b0811;color:#fff;font:inherit}button{margin-top:14px;padding:13px 20px;border:0;border-radius:12px;background:linear-gradient(90deg,var(--purple),var(--pink));color:#fff;font-weight:850;font:inherit;cursor:pointer}button:hover{filter:brightness(1.1)}.status{min-height:28px;color:#e0c4ff}.winners{padding-left:20px}.pill{display:inline-block;border:1px solid #69428a;color:#e1c2ff;padding:4px 10px;border-radius:99px;font-size:.78rem;font-weight:800}
+footer{border-top:1px solid var(--line);padding:26px 24px;text-align:center;color:var(--muted);font-size:.88rem}a{color:#d9a8ff}
+@media(max-width:700px){header{flex-direction:column}nav a{margin:0 9px}.grid{grid-template-columns:1fr}.hero{padding-top:28px}}
+</style>
+</head>
+<body>
+<header><div class="logo">✦ FREE <span>ROBUX</span> LOVERS</div><nav><a href="#enter">Giveaway</a><a href="#winners">Winners</a><a href="#safety">Safety</a></nav></header>
+<main>
+<section class="hero">
+<div class="eyebrow">Community • Fun • Roblox</div>
+<h1>Good vibes.<br>Big dreams.</h1>
+<p class="lead">Welcome to Free Robux Lovers — a fan-made community page sharing giveaway information and tips for staying safe while gaming.</p>
+<div class="prize"><small>FEATURED GIVEAWAY PRIZE DISPLAY</small><div class="amount">22,900 <span>R$</span></div><span class="pill">Availability not confirmed</span><p class="note">This is a promotional display only. No prize pool, sponsor, or payout has been verified. No Robux is promised or guaranteed.</p></div>
+</section>
+<div class="grid">
+<section class="card" id="enter"><h2>Giveaway interest form</h2><p>Enter your Roblox username to preview the form. This demo does not submit or save entries and does not enter you into a real giveaway.</p>
+<form id="entry"><label for="username">Roblox username</label><input id="username" name="username" minlength="3" maxlength="20" pattern="[A-Za-z0-9_]+" autocomplete="off" placeholder="Your Roblox username" required><button type="submit">Preview entry</button><p class="status" id="status" aria-live="polite"></p></form>
+<p class="note">Never enter your password, email login code, recovery code, or browser cookies on a giveaway site.</p></section>
+<section class="card" id="winners"><h2>Winner announcements</h2><p>No winners have been verified or announced yet.</p><ul class="winners"><li>Announcements will only be posted after a legitimate giveaway has been independently confirmed.</li><li>Never pay a fee to claim a supposed prize.</li></ul></section>
+<section class="card"><h2>How it works</h2><ol><li>Read the official giveaway rules and eligibility details.</li><li>Check who is sponsoring the prize and how it will be delivered.</li><li>Wait for a verifiable announcement. Entry never guarantees a reward.</li></ol></section>
+<section class="card" id="safety"><h2>Stay scam-safe</h2><ul><li>Roblox passwords and verification codes should stay private.</li><li>Do not download files or browser extensions to claim Robux.</li><li>Be wary of links asking you to sign in outside the official Roblox website.</li></ul><p><a href="https://www.roblox.com/" target="_blank" rel="noopener">Official Roblox website</a> · <a href="https://www.roblox.com/info/safety" target="_blank" rel="noopener">Roblox safety</a></p></section>
+</div>
+</main>
+<footer>Free Robux Lovers is an independent fan-made page and is not affiliated with, endorsed by, or sponsored by Roblox Corporation. Roblox is a trademark of Roblox Corporation.</footer>
+<script>
+document.getElementById('entry').addEventListener('submit',function(event){event.preventDefault();const name=document.getElementById('username').value.trim();document.getElementById('status').textContent='Thanks, '+name+'. This is only a local demo preview — your entry was not sent or saved, and no giveaway entry was created.';});
+</script>
+</body>
+</html>
